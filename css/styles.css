@@ -1,8 +1,8 @@
 body {
-  background-color: #f6ffe040;
-  color: #10222b;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
+    background-color: #f6ffe040;
+    color: #10222b;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 footer {
@@ -10,38 +10,37 @@ footer {
 }
 
 .container article {
-  padding-right: 1em;
+    padding-right: 1em;
 }
 
 .article-image {
-  width: 10em;
+    max-width: 10em;
 }
 
 .container {
-  max-width: 60em;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
+    max-width: 60em;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container > main {
-  width: 100%;
-  text-align: justify;
-  display: flex;
-  flex-wrap: wrap;
+    width: 100%;
+    text-align: justify;
+    flex-wrap: wrap;
 }
 
 article > figure {
-  float: left;
-  margin: 0 1em 1em 0;
+    float: left;
+    margin: 0 1em 1em 0;
 }
 
 figcaption {
-  text-align: center;
+    text-align: center;
 }
 
 .container > footer {
-  width: 60em;
+    width: 60em;
 }
 
 /*
